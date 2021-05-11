@@ -1,3 +1,6 @@
 .navigation__logo {
-    max-width:150px;
+    max-width:170px;
+    @include respond-to-down('lg'){
+        max-width:150px;
+    }
 }

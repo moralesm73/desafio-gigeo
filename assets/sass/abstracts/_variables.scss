@@ -1,0 +1,38 @@
+//Colores
+$color_white: #FFFFFF;
+$color_black: #001514;
+$color_light_black: #55595c;
+$color_gray: #80809d;
+$color_light_blue: #92dce5;
+$color_light_red: #ef6461;
+
+
+$montserrat: 'Montserrat', sans-serif;
+
+$font_bold: 600;
+$font_regular: 400;
+$font_light: 300;
+
+
+
+//Breakpoints
+$min-sm: 576px;
+$min-md: 768px;
+$min-lg: 992px;
+$min-xl: 1200px;
+
+$breakpoints-down: (
+    'xs': (max-width: $min-sm),
+    'sm': (min-width: $min-sm),
+    'md': (min-width: $min-md),
+    'lg': (min-width: $min-lg),
+    'xl': (min-width: $min-xl)
+);
+
+$breakpoints-up: (
+    'xs': (max-width: $min-sm),
+    'sm': (max-width: $min-md),
+    'md': (max-width: $min-lg),
+    'lg': (max-width: $min-xl),
+    'xl': (min-width: $min-xl)
+);
