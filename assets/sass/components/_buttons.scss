@@ -1,0 +1,31 @@
+.buttons {
+    border-radius: 0;
+    display: block;
+    padding: .8rem 1rem;
+    color: $color_white;
+    font-size: 1.2rem;
+    width: 120px;
+    text-align: center;
+    border: 1px solid;
+    &--message{
+        background-color: $color_light_blue;
+        border-color: $color_light_blue;
+        &:hover {
+            color: $color_light_blue;
+            background-color: $color_white;
+            border:1px solid $color_light_blue;
+        }
+    }
+    &--follow{
+        background-color: $color_light_red;
+        border-color: $color_light_red;
+        &:hover {
+            color: $color_light_red;
+            background-color: $color_white;
+            border:1px solid $color_light_red;
+        }
+    }
+    &:hover {
+        text-decoration: none;
+    }
+}

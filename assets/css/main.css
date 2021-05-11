@@ -10012,6 +10012,85 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
+.main__header {
+  width: 100%;
+  height: 20vh;
+  position: relative;
+  background-image: url(../images/image-banner-sm.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+@media (min-width: 992px) {
+  .main__header {
+    height: 32vh;
+    background-image: url(../images/image-banner-lg.jpg);
+  }
+}
+
+.main__info {
+  padding: 0.7rem 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.profile__info h3 {
+  font-size: 1.8rem;
+  margin-bottom: 0.2rem;
+}
+.profile__info p {
+  font-size: 0.85rem;
+  color: #80809d;
+}
+
+.buttons {
+  border-radius: 0;
+  display: block;
+  padding: 0.8rem 1rem;
+  color: #FFFFFF;
+  font-size: 1.2rem;
+  width: 120px;
+  text-align: center;
+  border: 1px solid;
+}
+.buttons--message {
+  background-color: #92dce5;
+  border-color: #92dce5;
+}
+.buttons--message:hover {
+  color: #92dce5;
+  background-color: #FFFFFF;
+  border: 1px solid #92dce5;
+}
+.buttons--follow {
+  background-color: #ef6461;
+  border-color: #ef6461;
+}
+.buttons--follow:hover {
+  color: #ef6461;
+  background-color: #FFFFFF;
+  border: 1px solid #ef6461;
+}
+.buttons:hover {
+  text-decoration: none;
+}
+
+.profile__thumb {
+  max-width: 120px;
+}
+@media (min-width: 992px) {
+  .profile__thumb {
+    max-width: 85px;
+  }
+}
+.profile__thumb--rounded {
+  border-radius: 100px;
+}
+@media (min-width: 992px) {
+  .profile__thumb--rounded {
+    border-radius: 60px;
+  }
+}
+
 .navbar-toggler {
   font-size: 2rem;
   color: #55595c;

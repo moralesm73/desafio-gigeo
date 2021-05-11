@@ -1,0 +1,12 @@
+.profile__thumb {
+    max-width:120px;
+    @include respond-to-down('lg'){
+        max-width:85px;
+    }
+    &--rounded{
+        border-radius: 100px;
+        @include respond-to-down('lg'){
+            border-radius: 60px;
+        }
+    }
+}
