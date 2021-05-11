@@ -10003,6 +10003,49 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 600;
 }
 
+.feed__title {
+  font-size: 2.5rem;
+  text-align: center;
+}
+@media (min-width: 992px) {
+  .feed__title {
+    text-align: left;
+    padding: 0 15px;
+  }
+}
+
+.feed__video {
+  margin-bottom: 1.2rem;
+}
+@media (min-width: 768px) {
+  .feed__video {
+    margin-bottom: 1rem;
+  }
+}
+
+.feed__name {
+  font-size: 1.5rem;
+  margin-bottom: 0.7rem;
+  color: #001514;
+}
+@media (min-width: 768px) {
+  .feed__name {
+    font-size: 1.4rem;
+    margin-bottom: 0.5rem;
+  }
+}
+
+.feed__statistics {
+  color: #80809d;
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+@media (min-width: 768px) {
+  .feed__statistics {
+    font-size: 1.1rem;
+  }
+}
+
 .navigation__logo {
   max-width: 170px;
 }
@@ -10030,7 +10073,11 @@ h1, h2, h3, h4, h5, h6 {
 
 .main__info {
   padding: 0.7rem 0;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+@media (min-width: 992px) {
+  .main__info {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  }
 }
 
 .profile__info h3 {

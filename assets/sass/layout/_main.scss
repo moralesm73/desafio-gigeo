@@ -13,7 +13,7 @@
 }
 .main__info {
     padding: .7rem 0;
-    border-bottom: 1px solid rgba(0,0,0,.2);
+    @include respond-to-down('lg'){border-bottom: 1px solid rgba(0,0,0,.2);}
 }
 .profile__info {
     h3 {

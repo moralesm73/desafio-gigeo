@@ -1,0 +1,36 @@
+
+.feed__title {
+    font-size: 2.5rem;
+    text-align: center;
+    
+    @include respond-to-down('lg'){
+        text-align: left;
+        padding: 0 15px;
+    }
+}
+
+.feed__video {
+    margin-bottom: 1.2rem;
+    @include respond-to-down('md'){
+        margin-bottom: 1rem;
+    }
+}
+
+.feed__name {
+    font-size: 1.5rem;
+    margin-bottom: .7rem;
+    color: $color_black;
+    @include respond-to-down('md'){
+        font-size: 1.4rem;
+        margin-bottom: .5rem;
+    }
+}
+
+.feed__statistics {
+    color: $color_gray;
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    @include respond-to-down('md'){
+        font-size: 1.1rem;
+    }
+}
