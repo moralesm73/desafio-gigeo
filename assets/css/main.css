@@ -9928,5 +9928,8 @@ h3 {
     border-color: #dee2e6;
   }
 }
+.navigation__logo {
+  max-width: 150px;
+}
 
 /*# sourceMappingURL=main.css.map */
